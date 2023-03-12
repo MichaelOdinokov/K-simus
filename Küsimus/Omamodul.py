@@ -21,9 +21,7 @@ def kusimus_vastused_1(n):
         with open("valed.txt", "a", encoding="utf-8") as f:
             f.write(f"{n}: {punktid}/5\n")
 """
-def kusimus_vastused_2(n):
-    """
-    """          
+def kusimus_vastused_2(n):        
     print(f"Tere, {n}! Alustame küsitlust.")
     punktid=0    
     for kusimus, vastus in kus_vas.items():
