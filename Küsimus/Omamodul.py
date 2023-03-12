@@ -15,18 +15,26 @@ def nimi(n:int,i):#i=inimesed
         if i==1:
             kusimus_vastused
 
-def kusimus_vastused(n:int):
-        n=input("Sissetage sinu nimi:")
-        print(f"Привет, {n}! Начнем наш опрос.")
-        k=input("Mis месяцы относятся к лету?")#juuni, juuli, august
-        k=input("Какое растение символизирует лето?") #подсолнух
-        k=input("Как называется праздник начала лета?") #летнее солнцестояние
-        k=input("Как называется игра, которая играют на улице летом?") #лазертаг
-        k=input("Какой фрукт считается символом лета?") #арбуз
-        k=input("Какой цвет ассоциируется с летом?") #желтый
-        k=input("Какой город в России считается летней столицей?") #Санкт-Петербург 
-        f=open("kusimused_vastused.txt", "r", encoding="utf-8")
-        print(f.read())
+def kusimus_vastused(n):
+    
+    print(f"Tere, {n}! Alustame küsitlust.")
+    
+    punktid = 0
+    
+    for kusimus, vastus in kus_vas.items():
+        kasutaja_vastus = input(kusimus)
+        if kasutaja_vastus.lower() == vastus.lower():
+            print("Õige vastus!")
+            punktid += 1
+        else:
+            print("Vale vastus!")
+    
+    if punktid > 3:
+        print(f"Tubli töö, {n}! Teie skoor oli {punktid}/7.")
+        with open("oiged.txt", "a", encoding="utf-8") as f:
+            f.write(f"{n}: {punktid}/7\n")
+    else:
+        print(f"Pole paha, {n}. Teie skoor oli {punktid}/7.")
 
             
 """          
