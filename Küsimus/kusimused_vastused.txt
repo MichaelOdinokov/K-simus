@@ -1,12 +1,12 @@
-﻿Mis месяцы относятся к лету?: juuni, juuli, august
-Какое растение символизирует лето?: подсолнух
-Как называется праздник начала лета?: летнее солнцестояние
-Как называется игра, которая играют на улице летом?: лазертаг
-Какой фрукт считается символом лета?: арбуз
-Какой цвет ассоциируется с летом?: желтый
-Какой город в России считается летней столицей?: Санкт-Петербург
-Какая среднея температура летом в Эстоний?: 17 градуов
-Какая летния столица в Эстоний?: Пярну
-У какаих двух месяяцах название отличаеться на одну букву?: juuni, juuli
-Летом день длиний или короткий?: длиний
-Какик месяца считаються летними в южном полушарии?: декабрь, январь, февраль
+﻿﻿Mis suvi on kuud?: juuni, juuli, august
+Milline taim sümboliseerib suve?: päevalill
+Mis püha on suve algus?: suvine pööripäev
+Mis on suvel õues mängitava mängu nimi?: lasertag
+Millist puuvilja peetakse suve sümboliks?: arbuusi
+Mis värvi seostatakse suvega?: kollane
+Millist linna Venemaal peetakse suvepealinnaks?: Peterburi
+Mis on keskmine suvetemperatuur Eestis?: 17 kraadi
+Mis on Eesti suvepealinn?: Pärnu
+Millise kahe kuu nimi erineb ühe tähe võrra?: juuni, juuli
+Kas päev on suvel pikk või lühike?: pikk
+Milliseid kuud loetakse lõunapoolkeral suveks?: detsember, jaanuar, veebruar
